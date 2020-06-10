@@ -1,5 +1,4 @@
-#ifndef KUL_GADGET_H
-#define KUL_GADGET_H
+#pragma once
 
 #include <vector>
 #include "PowerSupply.h"
@@ -57,5 +56,3 @@ public:
 };
 
 int SearchComputer (vector<Computer>& arr, int left, int right, int key);
-
-#endif //KUL_GADGET_H
