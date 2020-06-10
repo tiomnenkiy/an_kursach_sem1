@@ -1,5 +1,4 @@
-#ifndef KUL_INPUT_H
-#define KUL_INPUT_H
+#pragma once
 
 #include <vector>
 #include <string>
@@ -7,5 +6,3 @@
 using namespace std;
 
 int InputDigit (bool lang, vector<string>& lines);
-
-#endif //KUL_INPUT_H
