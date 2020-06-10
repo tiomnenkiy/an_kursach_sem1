@@ -1,5 +1,4 @@
-#ifndef KUL_POWERSUPPLY_H
-#define KUL_POWERSUPPLY_H
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -28,4 +27,3 @@ public:
 
 int SearchSupply(vector<PowerSupply>& arr, int left, int right, int key);
 
-#endif //KUL_POWERSUPPLY_H
