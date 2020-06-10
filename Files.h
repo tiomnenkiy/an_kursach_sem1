@@ -1,5 +1,4 @@
-#ifndef KUL_FILES_H
-#define KUL_FILES_H
+#pragma once
 
 #include <string>
 #include <fstream>
@@ -33,5 +32,3 @@ string GetConfPath();
 bool Save (bool lang, vector<PowerSupply>& bat_aa, vector<PowerSupply>& bat_aaa, vector<PowerSupply>& network,
         vector<Lamp>& lamps, vector<Monitor>& monitors, vector<Computer>& computers,
         vector<string>& lines, ofstream& file_out, string out);
-
-#endif //KUL_FILES_H
