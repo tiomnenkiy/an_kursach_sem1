@@ -107,11 +107,11 @@ string Configuration(bool lang, string& eng, string& rus,
     string conf_path = GetConfPath();
     lang = ChangeLang(lang, lines, file_eng, file_rus, eng, rus, conf_path);
     do {
-        ifstream conf("/home/merso/CLionProjects/kul/configuration.txt");
+        ifstream conf("configuration.txt");
         if (!conf.is_open()) {
-            conf.open("/home/merso/CLionProjects/kul/configuration.txt");
+            conf.open("configuration.txt");
             if(!conf.is_open()) {
-                cout << lines.at(134) << "/home/merso/CLionProjects/kul/configuration.txt" << endl;
+                cout << lines.at(134) << "configuration.txt" << endl;
                 exit(-1);
             }
         }
@@ -170,11 +170,11 @@ string Configuration(bool lang, string& eng, string& rus,
         }
 
         conf.close();
-        ofstream conf_out("/home/merso/CLionProjects/kul/configuration.txt");
+        ofstream conf_out("configuration.txt");
         if (!conf_out.is_open()) {
-            conf_out.open("/home/merso/CLionProjects/kul/configuration.txt");
+            conf_out.open("configuration.txt");
             if(!conf_out.is_open()) {
-                cout << lines.at(134) << "/home/merso/CLionProjects/kul/configuration.txt" << endl;
+                cout << lines.at(134) << "configuration.txt" << endl;
                 exit(-1);
             }
         }
@@ -219,7 +219,7 @@ void ChangePath (bool lang, int key, string& path, vector<string>& lines) {
 }
 
 string GetConfPath() {
-    return "/home/merso/CLionProjects/kul/configuration.txt";
+    return "configuration.txt";
 }
 
 bool Save (bool lang, vector<PowerSupply>& bat_aa, vector<PowerSupply>& bat_aaa, vector<PowerSupply>& network,
