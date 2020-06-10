@@ -12,7 +12,7 @@ bool MainMenu (bool lang, vector<string>& lines, vector<PowerSupply>& bat_aa, ve
                ifstream& file_eng, ifstream& file_rus, string& eng, string& rus,
                string& eng_about, string& rus_about, string& eng_prog, string& rus_prog, string& eng_screen, string& rus_screen, string& out) {
     PrintFile(eng_screen, lines);
-    string conf_path("/home/merso/CLionProjects/kurs/config.txt");
+    string conf_path("configuration.txt");
     ofstream file_out(out);
     int k=10;
     do {
