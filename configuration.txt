@@ -1,0 +1,9 @@
+/home/merso/CLionProjects/kul/output.txt
+/home/merso/CLionProjects/kul/eng.txt
+/home/merso/CLionProjects/kul/rus.txt
+/home/merso/CLionProjects/kul/eng_about.txt
+/home/merso/CLionProjects/kul/rus_about.txt
+/home/merso/CLionProjects/kul/eng_prog.txt
+/home/merso/CLionProjects/kul/rus_prog.txt
+/home/merso/CLionProjects/kul/eng_screen.txt
+/home/merso/CLionProjects/kul/rus_screen.txt

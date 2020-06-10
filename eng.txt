@@ -1,0 +1,155 @@
+1 - show sceen
+2 - show program guide
+3 - show about author
+4 - start program
+5 - переключиться на русский
+0 - exit
+Your choice:
+1 - create new power supply
+2 - create new gadget
+3 - manage gadgets
+4 - delete power supply
+5 - save data
+6 - переключиться на русский
+choose type of supply
+1 - AA battery
+2 - AAA battery
+3 - network supply
+4 - переключиться на русский
+input power:
+input voltage:
+choose gadget
+1 - lamp
+2 - monitor
+3 - computer
+input lamp power:
+input lamp voltage:
+choose color
+1 - red
+2 - orange
+3 - yellow
+4 - green
+5 - light blue
+6 - blue
+7 - violet
+wrong input
+input lamp price:
+input monitor power:
+input monitor voltage:
+input monitor price:
+choose type of monitor
+1 - TFT
+2 - IPS
+3 - OLED
+TFT
+IPS
+OLED
+input computer power:
+input computer voltage:
+input computer performance:
+input computer price:
+there are no supplies
+AA BATTERIES
+quantity:
+id:
+power:
+voltage:
+AAA BATTERIES
+NETWORKS
+there are no gadgets
+LAMPS
+price:
+color: red
+color: orange
+color: yellow
+color: green
+color: light blue
+color: blue
+color: violet
+MONITORS
+type:
+COMPUTERS
+performance:
+here is some gadgets
+create any gadgets first
+1 - show gadgets
+2 - choose gadget
+3 - turn on
+4 - turn off
+5 - plug
+6 - unplug
+7 - delete gadget
+8 - переключиться на русский
+choose type of gadget
+there are no gadgets of such type
+input lamp id:
+there is no such lamp
+working with lamp
+input monitor id:
+there is no such monitor
+working with monitor
+input computer id:
+there is no such computer
+working with computer
+there is no such gadget
+choose gadget first
+sorry, cannot turn on your device
+plug it first
+gadget state is now 1
+gadget state is now 0
+your device was unpluged from supply of type
+ AA battery with id:
+ AAA battery with id:
+ network with id:
+here is some supplies
+choose type of supply
+there is no such type
+there are no supplies of such type
+gadget is already unpluged
+lamp with
+is deleted
+there is no such monitor
+monitor with
+there is no such computer
+computer with
+input supply id:
+AA battery with
+AAA battery with
+network with
+cannot find such power supply
+uncompatible voltage
+sorry, cannot plug your device due to lack of power
+sorry, cannot plug your device due to incompatible voltage
+supplies power is now:
+choose, what file to configurate
+1 - output file
+2 - english language file
+3 - russian language file
+4 - about author english version file
+5 - about author russian version file
+6 - program guide english version file
+7 - program guide russian version file
+8 - screen english version file
+9 - screen russian version file
+10 - переключиться на русский
+we can't open file
+input new path
+try again:
+path has been sucessfully changed
+POWER SUPPLIES
+gadgets num:
+GADGETS
+light:
+state:
+ on
+ off
+length:
+width:
+hight:
+mass:
+supply type:
+AA battery
+AAA battery
+network
+supply id:
+performance:

@@ -1,0 +1,21 @@
+Program description
+General information:
+Program kurs.exe is designed to operate workshops and employees.
+
+Functionality:
+The program is intended for use in higher education institutions to demonstrate
+the main concepts of the object-oriented approach in the development of SOFTWARE by means of The C++ language.
+
+Technical means used:
+To run the program requires a personal computer with a processor frequency of at least 1.2 GHz and RAM of at least 256 MB.
+
+Call and download:
+The program is called and loaded by convenient calculation executable kurs.exe.
+
+Input:
+As the source data, the program uses the data entered by the user from the keyboard.
+
+Output:
+The output is displayed and the file is specified by the user or written in the program.
+You can choose: to create a power supply, to create a gadget, to delete a power supply,
+to manage gadgets and to save progress by pressing buttons from 1 to 7.
