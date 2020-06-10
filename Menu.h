@@ -1,5 +1,4 @@
-#ifndef KUL_MENU_H
-#define KUL_MENU_H
+#pragma once
 
 #include <vector>
 #include "PowerSupply.h"
@@ -39,4 +38,3 @@ bool ShowGadgets (bool lang, vector<string>& lines, vector<Lamp>& lamps, vector<
 bool DeletePowerSupply(bool lang, vector<string>& lines, vector<PowerSupply>& bat_aa, vector<PowerSupply>& bat_aaa,
                        vector<PowerSupply>& network, vector<Lamp>& lamps, vector<Monitor>& monitors, vector<Computer>& computers,
                        ifstream& file_eng, ifstream& file_rus, string& eng, string& rus);
-#endif //KUL_MENU_H
