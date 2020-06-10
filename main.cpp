@@ -3,9 +3,17 @@
 #include "LightDevice.h"
 #include "Files.h"
 #include "Menu.h"
+#include <locale.h>
+#include <Windows.h>
 using namespace std;
 
 int main() {
+    system("color F0");
+    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_CTYPE, "rus");
+    //system("CLS");
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
     vector<string> lines;
     vector<PowerSupply> bat_aa;
     vector<PowerSupply> bat_aaa;
@@ -32,6 +40,6 @@ int main() {
     conf_path = GetConfPath();
     lang = ChangeLang(lang, lines, file_eng, file_rus, eng, rus, conf_path);
     MainMenu(lang, lines, bat_aa, bat_aaa, network, lamps, monitors, computers, file_eng, file_rus, eng, rus, eng_about, rus_about, eng_prog, rus_prog, eng_screen, rus_screen, out);
-
+    system("pause");
     return 0;
 }
