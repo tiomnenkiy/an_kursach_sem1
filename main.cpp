@@ -10,10 +10,7 @@ using namespace std;
 int main() {
     system("color F0");
     setlocale(LC_ALL, "Russian");
-    //setlocale(LC_CTYPE, "rus");
-    //system("CLS");
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    
     vector<string> lines;
     vector<PowerSupply> bat_aa;
     vector<PowerSupply> bat_aaa;
