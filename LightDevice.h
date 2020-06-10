@@ -1,5 +1,4 @@
-#ifndef KUL_LIGHTDEVICE_H
-#define KUL_LIGHTDEVICE_H
+#pragma once
 
 #include <string>
 #include <vector>
@@ -52,5 +51,3 @@ public:
 int SearchLamp (vector<Lamp>& arr, int left, int right, int key);
 
 int SearchMonitor (vector<Monitor>& arr, int left, int right, int key);
-
-#endif //KUL_LIGHTDEVICE_H
